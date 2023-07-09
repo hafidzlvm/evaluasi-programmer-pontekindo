@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif, cursive;
+    background-color: white;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(51, 51, 235, 0.94);
+}
+.top-ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-weight:800;
+    font-size: 34px;
+    color: white;
+}
+.top-ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+    /* border: 10px solid red; */
+    justify-content: center;
+}
+
+.layout-left{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* border: 1px solid red; */
+    padding: 10%;
+}
+.layout-left p{
+    font-size: 34px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 10%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+table, th, td, tr {
+    width: auto;
+    border: 1px solid black;
+}
+th{
+    box-sizing: content-box;
+    color: white;
+    background-color: blue;
+}
+tr :first-child , th{
+    text-align: center;
+    align-items: center;
+}
+tr th .nama, td:nth-of-type(2){
+    padding-right: 20px;
+}
+.divisi{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.hobi{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.layout-right{
+    display: flex;
+    flex-direction: column; 
+    padding: 10%;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.layout-right p{
+    font-size: 34px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5%;
+    /* border: 1px solid red; */
+}
+
+.motor{
+    font-size: 30px;
+    text-align: left;
+    line-height: 130%;
+}

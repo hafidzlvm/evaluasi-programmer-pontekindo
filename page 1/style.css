@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Carter One', cursive;
+    text-decoration: none;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+    font-size: 110px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.btn a{
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.435);
+    border:10px solid white;
+    border-radius: 60px;
+    margin-right: 36%;
+    margin-left: 36%;
+}
+.p-myname{
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    color: #fff;
+    justify-content: center;
+    margin-top: 5px;
+}
